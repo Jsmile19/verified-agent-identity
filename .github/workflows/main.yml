@@ -8,7 +8,7 @@ on:
         required: true
         default: 'mogerz'
       agent_description:
-        description: 'asc'
+        description: 'mogerz'
         required: true
         default: 'mogerz AI Agent'
 
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "asclaw", "description": "mogerz AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "mogerz", "description": "mogerz AI Agent"}'
